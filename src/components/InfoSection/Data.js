@@ -1,3 +1,4 @@
+import img from '../../images/offroad.svg'
 
 export const homeObjOne = {
   id: 'about',
@@ -9,7 +10,7 @@ export const homeObjOne = {
   description: 'Get access to our excluir app that allows you to send unlimited transactions without getting charged any fees.',
   buttonLabel: 'Get started',
   imgStart: true,
-  img: require('../../images/tryme.jpeg'),
+  img: img,
   alt: 'Car',
   dark: true,
   primary: true,
@@ -26,7 +27,7 @@ export const homeObjTwo = {
   description: 'Get access to our excluir app that allows you to send unlimited transactions without getting charged any fees.',
   buttonLabel: 'Log In',
   imgStart: false,
-  img: require('../../images/tryme.jpeg'),
+  img: img,
   alt: 'PiggyBank',
   dark: false,
   primary: false,
@@ -43,7 +44,7 @@ export const homeObjThree = {
   description: 'Get access to our excluir app that allows you to send unlimited transactions without getting charged any fees.',
   buttonLabel: 'Start Now',
   imgStart: true,
-  img: require('../../images/tryme.jpeg'),
+  img: img,
   alt: 'forms',
   dark: true,
   primary: true,
